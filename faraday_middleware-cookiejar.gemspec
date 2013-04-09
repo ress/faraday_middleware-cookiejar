@@ -1,10 +1,10 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'faraday_middleware/cookiejar/version'
+require 'faradaymiddleware/cookiejar/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "faraday_middleware-cookiejar"
+  spec.name          = "faradaymiddleware-cookiejar"
   spec.version       = FaradayMiddleware::Cookiejar::VERSION
   spec.authors       = ["eagletmt"]
   spec.email         = ["eagletmt@gmail.com"]

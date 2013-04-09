@@ -1,4 +1,4 @@
-require "faraday_middleware/cookiejar/version"
+require "faradaymiddleware/cookiejar/version"
 
 module FaradayMiddleware
   class CookieJar < ::Faraday::Middleware
